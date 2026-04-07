@@ -20,5 +20,5 @@ RUN npm run build
 # Expose the port the app runs on
 EXPOSE 3000
 
-# Run database push, seed, and start the server
-CMD ["sh", "-c", "npx prisma db push && npx prisma db seed && npm start"]
+# Run database push, seed with ts-node, and start the server
+CMD ["sh", "-c", "npx prisma db push && npx ts-node prisma/seed.ts && npm start"]
