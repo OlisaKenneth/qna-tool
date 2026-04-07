@@ -14,6 +14,7 @@ export async function DELETE(
     await prisma.user.delete({ where: { id } });
     return NextResponse.json({ success: true });
   } catch (error: any) {
+    console.error('Delete user error:', error);
     if (error.message === 'Unauthorized') return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     if (error.message === 'Forbidden') return NextResponse.json({ error: 'Admin only' }, { status: 403 });
     return NextResponse.json({ error: 'Failed to delete user' }, { status: 500 });
