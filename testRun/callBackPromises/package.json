@@ -1,0 +1,16 @@
+{
+  "name": "callbackpromises",
+  "version": "1.0.0",
+  "description": "To test callBack and promises",
+  "license": "ISC",
+  "author": "Olisa Kenneth",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
