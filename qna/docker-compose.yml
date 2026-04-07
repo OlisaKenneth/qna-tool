@@ -29,7 +29,7 @@ services:
       NEXTAUTH_SECRET: your-secret-change-me
       NEXTAUTH_URL: http://localhost:3000
     volumes:
-      - ./uploads:/app/public/uploads
+      - ./public/uploads:/app/public/uploads
     networks:
       - next_launch_kit_network
 
