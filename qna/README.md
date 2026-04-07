@@ -22,22 +22,17 @@ A full‑stack Q&A platform where users can ask questions, reply in threaded con
 1. Clone the repository  
    ```bash
    git clone https://github.com/OlisaKenneth/fullStackWeb.git
-   cd qna-tool
-   ```
-2. Create environment file (from example)  
-   ```bash
+   cd fullStackWeb/qna
+
+2. Create environment file (from example)
    cp .env.example .env
-   ```
    (No changes needed – the defaults work with Docker.)
 
-Build and start the containers
-
-3. Build and start the containers  
-   ```bash
+3. Build and start the containers
    docker-compose up --build
-   ```
-   
-Open your browser at http://localhost:3000
+
+4. Open your browser at http://localhost:3000
+
 Default admin credentials
 
 Email: admin@example.com
@@ -45,33 +40,27 @@ Password: admin123
 The database is automatically seeded with this admin user and one default channel (“General”).
 
 Manual seed (if needed)
+   npx prisma db seed
 
-bash
-npx prisma db seed
 Development without Docker
+1. Install dependencies
 
-Install dependencies
+    npm install
 
-bash
-npm install
-Set up .env with your local PostgreSQL (e.g., on port 5434)
+2. Set up .env with your local PostgreSQL (e.g., on port 5434)
+   DATABASE_URL="postgresql://postgres:password123@localhost:5434/next_launch_kit"
+   NEXTAUTH_SECRET=any-secret
+   NEXTAUTH_URL=http://localhost:3000
 
-text
-DATABASE_URL="postgresql://postgres:password123@localhost:5434/next_launch_kit"
-NEXTAUTH_SECRET=any-secret
-NEXTAUTH_URL=http://localhost:3000
-Run migrations and seed
+3. Run migrations and seed
+   npx prisma db push
+   npx prisma db seed
 
-bash
-npx prisma db push
-npx prisma db seed
-Start the development server
+4. Start the Development center
+   npm run dev
 
-bash
-npm run dev
+
 Project Structure
-
-text
 src/
 ├── app/                 # Next.js App Router (pages & API routes)
 │   ├── api/             # Backend endpoints
@@ -89,13 +78,15 @@ prisma/
 public/uploads/          # Uploaded images (persisted via Docker volume)
 docker-compose.yml       # Multi‑container orchestration
 Dockerfile               # Production build
+
+
 Reports & Demo
 
-Design report – DESIGN_REPORT.md (architecture, DB choice, API endpoints, screenshot storage, key packages)
-Test report – TEST_REPORT.md (20 manual test cases with evidence)
-Demo video – (max 10 min, shows all core flows)
+Design report – DESIGN_REPORT.md
+Test report – TEST_REPORT.md
+Demo video – [Link to your video] (max 10 min, shows all core flows)
+Technologies Used
 
-Technologies Used:
 Next.js 16 (App Router, Turbopack)
 Prisma ORM + PostgreSQL
 NextAuth.js (Credentials provider)
@@ -103,8 +94,8 @@ Tailwind CSS
 TypeScript
 Docker + docker‑compose
 Multer (file upload)
+Troubleshooting
 
-Troubleshooting:
 “Cannot find module” during Docker build
 
 Make sure you ran docker-compose down -v and then docker-compose up --build – this clears old volumes.
@@ -112,9 +103,13 @@ Make sure you ran docker-compose down -v and then docker-compose up --build – 
 Uploaded images not showing
 
 Check that the file exists in public/uploads/ on your host.
-Verify the Docker volume is mounted: docker exec -it next_launch_kit_app ls -la /app/public/uploads/
-Ensure the database screenshot field starts with /uploads/.
+Verify the Docker volume is mounted: docker exec -it qna-app-1 ls -la /app/public/uploads/
+Ensure the database screenshot field starts with /api/image/ (the upload API does this automatically).
 Admin dashboard redirects to sign in
 
 Log out and sign in again with the admin account (admin@example.com / admin123).
 
+
+
+
+---
