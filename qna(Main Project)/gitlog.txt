@@ -1,0 +1,498 @@
+commit a4b4ed9cd47e37e417d889b895e47d3f0c44fba1
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Tue Apr 7 02:13:45 2026 -0600
+
+    Fix README formatting for marker
+
+commit c95f6c45541b966f8403302b58753331b08f2714
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 20:23:11 2026 -0600
+
+    Add image serving API to fix runtime image display
+
+commit 0c6132fda3ddd437fcbc456367af2989c97ecc09
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 20:12:00 2026 -0600
+
+    Add admin delete user API endpoint
+
+commit 6bba872c88fc9994cbc14e7719a5c5d78acc3a98
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 19:59:39 2026 -0600
+
+    Fix upload volume mount and ensure leading slash in image URLs
+
+commit d748940632bf71e743f6a207c4265bda92d09f1b
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 19:39:20 2026 -0600
+
+    Fix Docker volume mount for uploads and cleanup unused files
+
+commit 76a72b8008a5da8b6c59bec259e1d90abb4450d3
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 19:21:38 2026 -0600
+
+    Add volume mount for uploads to persist images
+
+commit 6d1144641a0a45be30e10027357142c21a99db1a
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 19:08:16 2026 -0600
+
+    Use JavaScript seed script to fix TypeScript execution in Docker
+
+commit 4088f8343801c200e2f30126517cce35984b290f
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:57:58 2026 -0600
+
+    Fix seed script and ensure admin user is created in Docker
+
+commit 01cceb9a6eb59d57224acd48ef2af0f34b13fb79
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:43:39 2026 -0600
+
+    Use db push + seed in Docker CMD for simpler grading
+
+commit 2e76ea4671157546553bbb043bfc69075af5956a
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:42:28 2026 -0600
+
+    Add initial database migration
+
+commit 95fd852ed2a7d91615261df9d0b46425079b9999
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:38:46 2026 -0600
+
+    Clean root: remove duplicate starter files, keep only qna and assignment folders
+
+commit 51ae2d0dc5c35d33a55bcbe16bfe0d4d11abe474
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:27:10 2026 -0600
+
+    Ignore .DS_Store
+
+commit 154fba14d5e230625f35d4e15bb2ab9211226980
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Apr 6 18:19:57 2026 -0600
+
+    Add qna-tool project as regular folder (removed inner git)
+
+commit 44c578980a88ddd2615ca4d4b8f20793e98ab53b
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Sun Apr 5 08:01:31 2026 -0600
+
+    finished all implementation
+
+commit 585f11423235228a1f6a9cbbb55de8892761106e
+Merge: fa3b1f6 857601b
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Sat Apr 4 11:27:03 2026 -0600
+
+    finished authentication
+
+commit fa3b1f6f0768d71a1985ace21231a235c938f5dc
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Sat Apr 4 09:59:44 2026 -0600
+
+    made a API to list and create channel and a Channels page with list and create form and Homepage with link
+
+commit 857601b7ecf4bb6be44a0361262779e6cb34c535
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Feb 23 05:46:46 2026 -0600
+
+    finished my intoduction to http and introduction to express and javascript
+
+commit 44f4e2f90fadffb002d0e9995c941293129764d3
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Sun Feb 22 03:16:12 2026 -0600
+
+    update to my fulstack web programming journey worked on adding some more styles to my pages using sql and nginx and javascipt
+
+commit f63f55d524202068386da696c8220927c68b1651
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 22:18:24 2026 +0200
+
+    Add trusted origins for better auth
+
+commit 193a1d6e4aaf198cc612df8a490e8a2ae8a2c441
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 18:12:41 2026 +0200
+
+    Update seeding script to add email verified users
+
+commit ec48affac3f7adf37a48f4dbfa15ca382cca3ccf
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 17:39:53 2026 +0200
+
+    update nixpacks
+
+commit 6226b8243990edbd3e212f23b333367ab45f3d5c
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 17:35:27 2026 +0200
+
+    Add tw-animate-css to dependencies
+
+commit 59e56c7e233fc77cefbd9167d671b5ae3d3ba280
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 17:30:16 2026 +0200
+
+    add tailwindcss/postcss to dependencies
+
+commit f247ce09c082c887994eb68e81615e14132707f7
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 15:33:34 2026 +0200
+
+    update nixpacks
+
+commit c04a2f4e0dec6282b4a6375940c3b96e3de79294
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 15:31:52 2026 +0200
+
+    update package-lock.json
+
+commit a7468b82e9165dfd278933910248c6d454e0aceb
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 15:28:19 2026 +0200
+
+    Remove nixpacks.toml
+
+commit 75ef40b87e1c1a4421ec398dd78bcfe4aafe4f9a
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Feb 7 15:21:43 2026 +0200
+
+    Migrate to better auth from next auth
+
+commit 7f978929c1a7f4fe0f8933185109f663c200b6a5
+Author: olisa kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Jan 26 03:24:19 2026 -0600
+
+    working on my first build up to a ful stack web software
+
+commit 6ca9f15e5553a1212373ca42c5eb0b78acd5b846
+Author: Olisa Kenneth <olisaemekatochukwu@gmail.com>
+Date:   Mon Jan 26 02:53:42 2026 -0600
+
+    Initial commit
+
+commit 529af6b2b0051c98109175a5fcc081eb74d897ff
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Dec 4 22:11:11 2025 +0200
+
+    t
+
+commit 12cbe3506227816084b5314f330ba03b6163afb0
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Dec 4 21:52:17 2025 +0200
+
+    Make sure it builds with next 16
+
+commit b691488f1fe6c84715d28743afcb08b8ab1ae742
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Dec 4 21:28:47 2025 +0200
+
+    Install typescript manually
+
+commit 981e5da1316eb50ab115f084474da713aa1a4a7f
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Dec 4 21:18:07 2025 +0200
+
+    NLK-50 Introduce a subscription system with payments
+
+commit 9e858fc47277415d515db2c8ba79579b98c93ed5
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Oct 26 15:42:49 2025 +0200
+
+    Force nixpacks to use version 20 of node when building the app
+
+commit effb9ad4fc281acd7ca63cfbe9123747d9b34ceb
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Oct 26 15:38:40 2025 +0200
+
+    Add nixpacks.toml to overwrite the npm ci command to work with legacy packages that are not ready for next 16 yet
+
+commit 418388215d0b49d13fea931671a6ac4f832b6494
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Oct 26 13:55:49 2025 +0200
+
+    Minor fix on users export translations
+
+commit 11f8bab2223d36851f7dcf519e3174bd12604280
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Oct 26 13:54:31 2025 +0200
+
+    NLK-53 Upgrade to next 16 and prisma 6
+
+commit b07b2e9c5de1f5ced4abdb30f35bfd58d5da0bea
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Oct 12 14:01:09 2025 +0300
+
+    NLK-52 refactor translated terms to only have 'app' as key
+
+commit c8e1a03a6cfea527ad9b5eba06e79fa110d6b360
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 27 12:38:07 2025 +0300
+
+    Simplify info-alert. Minor refactor
+
+commit b02f5b75910c344d01d931ef94f6c19c9da1aad0
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Sep 26 20:27:30 2025 +0300
+
+    Minor hotfix for type linting
+
+commit d80cd178af8fbbcca1204089db08c42130317c6a
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Sep 26 20:12:51 2025 +0300
+
+    Add privacy policy and tos in marketing page and on sidebar menu. Minor improvement in sidebar menu layout.
+
+commit 8191278c46b1e5c52bbdbc7e6a5cd6e4f87825e5
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Wed Sep 17 22:10:47 2025 +0300
+
+    NLK-46 Improve responsive on users page
+
+commit 2570d1c1462fe5d83820e882819d37ae5f8d7de7
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Tue Sep 16 22:05:06 2025 +0300
+
+    NLK-44 Fix export for greek characters
+
+commit 67b8971aa692df2fa30ab932410a6cbf35d2e4f5
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Tue Sep 16 22:01:48 2025 +0300
+
+    More minor improvements
+
+commit 7949a110717bd0d73592e358fcdc03f5b6110782
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Tue Sep 16 21:44:23 2025 +0300
+
+    NLK-43 Add a Demo button in the marketing page with pre-filled login data.
+
+commit 8daa4bd6c386847ca79f1e690f1e748daf64b61c
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Sep 14 12:18:52 2025 +0300
+
+    Add some useful testing commands
+
+commit fa4fc66495f362234d2082bd0fda7be73c620092
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 19:07:54 2025 +0300
+
+    Improve the marketing page
+
+commit 65ab2b9484ba09d4f46eaff339e68b2149b0f7cf
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 18:47:28 2025 +0300
+
+    Finalize readme
+
+commit 9dfb65d75b8540faffef2dc3ddf57f7b3ff67eb4
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 18:40:29 2025 +0300
+
+    Update test README.md
+
+commit 79d97173bcbfbad4280d03389942eb6f7714eeef
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 18:37:48 2025 +0300
+
+    More readme improvements
+
+commit a968d7fb325c3dc7666056668efa745654ce5620
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 18:30:07 2025 +0300
+
+    NLK-41 Remove node from docker and use nvm instead
+
+commit 5c5aa8cd16901aa0e52b3263f9ef8bc85be91777
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 14:31:26 2025 +0300
+
+    NLK-40, NLK-28 Make sure I can build with npm run build without errors. More improvements on readme
+
+commit e900ac535265d94c3a8d2ba64a06c4de27543d3e
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 13 12:40:42 2025 +0300
+
+    NLK-28 Make sure README is clear and aligned with the project.
+
+commit bf996c277437bfc2a29abe6c9151f73b7a9e8227
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Sep 7 13:54:02 2025 +0300
+
+    NLK-35 Remove all migrations - keep the last state of the db
+
+commit 7876354b17d72223bb24b19f0ece954e5f9a13d8
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Sep 7 13:43:40 2025 +0300
+
+    NLK-8 Add google auth support
+
+commit 099e1708908f78fd6c8ca27e53824c6c3fd2a422
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 6 12:46:08 2025 +0300
+
+    NLK-32 Migrate from next-auth 4 to 5
+
+commit 5497b08d7ddac54cb0b48dcfc609f6bddacf4fd8
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 6 11:48:52 2025 +0300
+
+    NLK-12 Add example marketing page template
+
+commit 84d0151f2d80d51027a7e9a6f20de560e5caeb26
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Sep 6 10:55:13 2025 +0300
+
+    NLK-5 Add prettier for linting and apply a file formatting standard
+
+commit c8b121a91b98637d510b0954039f306270054162
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Mon Aug 18 21:27:43 2025 +0300
+
+    NLK-29 Add csv export for the table in user/index
+
+commit 9095e510de16d93748b2c5f7f6b1c38d260c1b2e
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Aug 16 20:34:30 2025 +0300
+
+    NLK-26 Consider using a loggin service
+
+commit 9fde8c7563782f82053b12d6fd840ec8f9d38fc2
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Aug 16 16:48:53 2025 +0300
+
+    NLK-27 Add a dialog when deleting user on a table. Also add delete button on view.
+
+commit fc2c0207bf160484fcc161bfb5b6cdaaee82a41b
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Aug 16 16:00:50 2025 +0300
+
+    NLK-20 Add more tests
+
+commit a0bb37862344885d8d5a597fd78f1b42fd261d24
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Aug 16 15:19:52 2025 +0300
+
+    Fix broken tests
+
+commit 3f70584769b6f163e965e321b2fea64d6836a8a7
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Aug 15 21:28:31 2025 +0300
+
+    minor hotfixes
+
+commit 9f3045cbebfce16c6883c6aa0af9008fe4bc689c
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Aug 14 14:05:29 2025 +0300
+
+    NLK-21 Make alerts consistent throughout the app
+
+commit 400eedb5af002a3d755c40d8de0ad70984071cba
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Aug 14 13:02:02 2025 +0300
+
+    NLK-23 Add User status to index and view pages
+
+commit a316326704be397ae3494ac814fffc088cba28fc
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Aug 14 12:38:22 2025 +0300
+
+    NLK-4 Create reset-password flow
+
+commit c3c4b7c59d3397b60532c8f498a0a0de6528d7a3
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Wed Aug 13 20:04:43 2025 +0300
+
+    Small hotfix. also delete next-auth session when user gets logged out by the admin
+
+commit b76ffdd4e030e1d188a819a0f01fa66d47f26970
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Wed Aug 13 19:51:53 2025 +0300
+
+    NLK-22, NLK-9 Add email verification. Allow the admin to change user's status
+
+commit 0cb142227b6878931a3f75cb702e4e6a9bc927f1
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Aug 10 15:34:30 2025 +0300
+
+    NLK-16 Investigate optimal strategies to test
+
+commit 752920adad5491331589c11d3b93f4fec8a78032
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sun Aug 10 12:35:05 2025 +0300
+
+    NLK-18 Improve and fix breadcrumbs
+
+commit 7fe7c815cea624bdab5115ddd78fdbb47e9f5b8a
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Aug 9 13:41:24 2025 +0300
+
+    NLK-19 Fix authentication and middleware problem
+
+commit 67fc5c1f1daff7e639c182b9322223f853cc5f23
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Aug 8 15:50:47 2025 +0300
+
+    NLK-11 Add CRUD User example for the admin
+
+commit 0481f6d205eb9d6c5c588b78b4b7d2e7be518674
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Jul 26 16:07:51 2025 +0300
+
+    NLK-13, NLK-15 done
+
+commit e02aa9553bfaf761887b8735dda7faf0c36bc027
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Jun 27 21:55:08 2025 +0300
+
+    NLK-3 Add a testing library and test the signin functionality
+
+commit 35a24a101ec06a3ee8ef8444d41966a7f84ae465
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri Jun 27 21:08:14 2025 +0300
+
+    Improve README - pg admin database discovery
+
+commit e768421c64e76de9897b90300a5220b90024deb2
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Tue Jun 24 21:33:46 2025 +0300
+
+    NLK-10 Create layout for authenticated user, for login and register pages and for marketing (root) page
+
+commit 3e83984ca244806a0ebbc999a7ccb7f32d7b1858
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Jun 7 16:34:30 2025 +0300
+
+    Configure next-intl. Add translations for en and el
+
+commit 559f7afed277868f22fa7fc54202d2cd15fcf256
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Jun 7 13:28:09 2025 +0300
+
+    removed extra dependency
+
+commit dd6e29ddbab3a2228a5fa706343b3865a2078f59
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Sat Jun 7 13:27:13 2025 +0300
+
+    Add session auth with next auth and support email and password. Add role based auth and protected routes inside a middleware
+
+commit 5ea6bc64f13d5d9850177653988cd2a6896364eb
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu Jun 5 00:08:27 2025 +0300
+
+    Add database and dockerize the application. Add a seeding script and basic user schema.
+
+commit 3d4820513998852db76c570d7e6977c5070cf285
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Fri May 30 00:25:38 2025 +0300
+
+    Shadcn addition as the UI library
+
+commit b99c7e0b34af8b68b1966eb03eee739f14afd4c0
+Author: TeoMastro <teomastro1999@gmail.com>
+Date:   Thu May 29 20:44:15 2025 +0300
+
+    Initial commit from Create Next App

@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: next_launch_kit_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: next_launch_kit
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+    ports:
+      - '127.0.0.1:5434:5432'
+    volumes:
+      - next_launch_kit_postgres_data:/var/lib/postgresql/data
+    networks:
+      - next_launch_kit_network
+
+  app:
+    build: .
+    container_name: next_launch_kit_app
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    environment:
+      DATABASE_URL: postgresql://postgres:password123@postgres:5432/next_launch_kit
+      NEXTAUTH_SECRET: your-secret-change-me
+      NEXTAUTH_URL: http://localhost:3000
+    volumes:
+      - ./public/uploads:/app/public/uploads
+    networks:
+      - next_launch_kit_network
+
+volumes:
+  next_launch_kit_postgres_data:
+
+networks:
+  next_launch_kit_network:
+    external: false
