@@ -1,3 +1,0 @@
-this is for my exemplative data 
-i want to also check a txt file with two lines
-what about 3
